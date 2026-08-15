@@ -1,9 +1,24 @@
-.env
-credentials.json
+# Virtual Environments
 .venv/
 venv/
-*.json
-!.env.example
+ENV/
+
+# Python cache & artifacts
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Environment & Credentials
+.env
+*.json
+
+# Logs
 logs/
+*.log
+
+# Node & Frontend build outputs
+node_modules/
+dist/
+.next/
+build/
+.cache/
